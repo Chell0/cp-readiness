@@ -47,14 +47,14 @@ div.jumbo {
     border-radius: 6px;
 }
 
-h2 {
+h1 {
     font-size: 3em;
     margin-top: 40px;
     text-align: center;
     letter-spacing: -2px;
 }
 
-h3 {
+h2 {
     font-size: 1.7em;
     font-weight: 100;
     margin-top: 30px;
@@ -72,15 +72,15 @@ h3 {
     margin-top: 8px;
 }
 
-/* .menu li {
-    display: inline;
-} */
-
-.menu li + li {
-    margin-left: 35px;
+.menu li {
+    display: inline-block;
 }
 
-.menu li a {
+.menu li + li {
+    margin-left: 65px;
+}
+
+nav.menu>li>a {
     color: #999;
     text-decoration: none;
 }
